@@ -1,0 +1,61 @@
+/* this is basically everything on the page incl. headers, even though it says body */
+body {
+	background: white;
+	color: black;
+}
+/* anything in the navigation bar gets class nav */
+
+.nav {
+	font-family: sans-serif;
+	background: white;
+	color: black;
+	display: inline;
+	margin: .5em;
+	padding: 1.5em;
+	border-radius: 1em;
+	font-size: 1em;
+	margin-bottom: 4em;
+	box-shadow: 3px 3px 3px lime;
+	text-decoration: none;
+	}
+
+/* the list of posts on the posts/blog page */
+
+.postslist {
+	list-style: none;
+	font-family: sans-serif;
+	color: black;
+
+}
+.title {
+	text-transform: lowercase;
+	font-family: sans-serif;
+	color: lime;
+}
+
+.body {
+	display: block;
+	background: black;
+	box-shadow: 3px 3px 3px lime;
+	color: white;
+	font-family: sans-serif;
+	padding: 2em;
+	margin: 2em;
+}
+
+.bloo {
+	color: black;
+	background: lime;
+	padding: .5em;
+}
+
+.tags {
+	color: black;
+	a:visited {
+		color: lime;
+	}
+	a:hover {
+		color: seagreen;
+	}
+	font-size: 1.3em;
+}
